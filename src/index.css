@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', ui-sans-serif, system-ui;
+  }
+}
+
+@layer components {
+  .glassmorphism {
+    @apply bg-white/20 backdrop-blur-xl shadow-xl rounded-2xl border border-white/30;
+  }
+  
+  .glassmorphism-dark {
+    @apply dark:bg-gray-800/20 dark:backdrop-blur-xl dark:shadow-xl dark:rounded-2xl dark:border-gray-700/30;
+  }
+}
