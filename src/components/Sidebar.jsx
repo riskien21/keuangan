@@ -7,7 +7,7 @@ import {
   FileText, 
   Settings, 
   LogOut,
-  Mosque
+  Building
 } from 'lucide-react'
 
 const Sidebar = () => {
@@ -29,7 +29,7 @@ const Sidebar = () => {
         <div className="flex items-center justify-center p-6 border-b border-white/20">
           <div className="flex items-center space-x-3">
             <div className="p-2 bg-white/20 rounded-xl backdrop-blur-sm">
-              <Mosque className="h-8 w-8 text-white" />
+              <Building className="h-8 w-8 text-white" />
             </div>
             <div className="text-white">
               <h1 className="text-lg font-bold tracking-wide">PPTQ</h1>
